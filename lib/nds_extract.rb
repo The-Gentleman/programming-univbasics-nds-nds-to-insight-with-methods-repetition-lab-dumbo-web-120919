@@ -31,7 +31,7 @@ def total_gross(source)
   # return the total
   total = 0 
   directors_totals.each {|key,value| total += result["key"]}
-
+  total 
 end 
   
 def list_of_directors(source)
