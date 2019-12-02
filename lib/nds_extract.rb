@@ -19,7 +19,7 @@ resultArray
 end
 
 def total_gross(source)
-  p result
+
   # Write this implementation
   #
   # Should use methods:
