@@ -30,7 +30,7 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   total = 0 
-  directors_totals.each {|result, |}
+  directors_totals.each {|key,value| }
 
 end 
   
