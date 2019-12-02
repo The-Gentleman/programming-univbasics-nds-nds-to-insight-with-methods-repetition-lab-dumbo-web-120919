@@ -68,22 +68,21 @@ end
 
 
 
-director_counter = 0 
-result = {
-} 
+
+
  
 
- director_name = source[director_counter][:name] 
  movie_counter = 0
- result[director_name] = 0 
-
+ director_counter = 0 
+ total = 0  
+  
   while movie_counter < source[director_counter][:movies].count do 
-   result[director_name] += source[director_counter][:movies][movie_counter][:worldwide_gross]
+   total = source[director_counter][:movies][movie_counter][:worldwide_gross]
    movie_counter += 1 
    director_counter += 1 
   end 
 
-result 
+
 end
 
 
