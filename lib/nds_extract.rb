@@ -75,12 +75,13 @@ end
  movie_counter = 0
  director_counter = 0 
  total = 0  
- p source.count 
-  while movie_counter < source[director_counter][:movies].count do 
+ 
+  while movie_counter < source.count do 
    total += source[director_counter][:movies][movie_counter][:worldwide_gross]
    movie_counter += 1 
    director_counter += 1 
   end 
+
 total 
 end
 
