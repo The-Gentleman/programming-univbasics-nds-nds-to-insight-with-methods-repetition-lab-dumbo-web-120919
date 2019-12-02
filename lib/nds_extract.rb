@@ -29,6 +29,8 @@ def total_gross(source)
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
+end 
+  
 def list_of_directors(source)
 counter = 0 
 director_name = source[counter][:name]
@@ -52,18 +54,18 @@ director_counter = 0
 result = {
 } 
  
-while director_counter < source.length do 
- director_name = source[director_counter][:name] 
- movie_counter = 0
- result[director_name] = 0 
-
-  while movie_counter < source[director_counter][:movies].count do 
-   result[director_name] += source[director_counter][:movies][movie_counter][:worldwide_gross]
-   movie_counter += 1 
+  while director_counter < source.length do 
+   director_name = source[director_counter][:name] 
+   movie_counter = 0
+   result[director_name] = 0 
+  
+    while movie_counter < source[director_counter][:movies].count do 
+     result[director_name] += source[director_counter][:movies][movie_counter][:worldwide_gross]
+     movie_counter += 1 
+    end 
+  
+    director_counter += 1 
   end 
-
-  director_counter += 1 
-end 
   
 result
 end
