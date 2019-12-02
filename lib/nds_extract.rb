@@ -70,7 +70,7 @@ end
 
 total = 0 
 result.each {|value| total += key["value"]}
-p total 
+total 
 end
 
 # result = 
