@@ -29,6 +29,10 @@ def total_gross(source)
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
+  total = 0 
+  result.each {|value| total += key["value"]}
+  total 
+
 end 
   
 def list_of_directors(source)
@@ -67,13 +71,10 @@ def directors_totals(source)
     director_counter += 1 
   end 
   
-result
+  result
 end
 
-total = 0 
-result.each {|value| total += key["value"]}
-total 
-end
+
 
 # result = 
 # {"Stephen Spielberg"=>1357566430, 
