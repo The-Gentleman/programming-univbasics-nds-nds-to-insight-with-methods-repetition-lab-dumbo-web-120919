@@ -68,8 +68,8 @@ end
 result
 end
 
-
-
+total = 0 
+result.each {|key[]|}
 
 end
 
