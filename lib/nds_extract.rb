@@ -7,15 +7,15 @@ require_relative './directors_database'
 def list_of_directors(source)
 counter = 0 
 director_name = source[counter][:name]
-result = []
+resultArray = []
 
   while counter < source.count do 
    director_name = source[counter][:name]
    counter += 1 
-   result << director_name 
+   resultArray << director_name 
   end 
 
-result  
+resultArray 
 end
 
 def total_gross(source)
