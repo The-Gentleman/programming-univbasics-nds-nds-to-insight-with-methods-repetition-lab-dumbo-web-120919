@@ -67,8 +67,10 @@ resultArr
 end
 #frequencies.each { |key, value| puts "#{key} #{value}" }
 
-p result[:"Stephen Spielberg"]
- 
+
+total = 0 
+result.each {|hash, key| total += hash[:key]}
+total 
 end
 
 # result = 
