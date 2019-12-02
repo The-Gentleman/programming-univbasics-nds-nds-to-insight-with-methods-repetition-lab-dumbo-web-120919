@@ -67,7 +67,7 @@ resultArr
 end
 #frequencies.each { |key, value| puts "#{key} #{value}" }
 
-
+p result
  
 end
 
