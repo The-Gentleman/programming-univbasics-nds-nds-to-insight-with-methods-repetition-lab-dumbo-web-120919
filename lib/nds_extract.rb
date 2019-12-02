@@ -37,19 +37,19 @@ def gross_for_director(source)
     movie_index += 1 
     end 
 
-total_gross
+  total_gross
 end 
   
 def list_of_directors(source)
-counter = 0 
-director_name = source[counter][:name]
-resultArr = []
+  counter = 0 
+  director_name = source[counter][:name]
+  resultArr = []
 
-  while counter < source.count do 
-   director_name = source[counter][:name]
-   counter += 1 
-   resultArr << director_name 
-  end 
+    while counter < source.count do 
+     director_name = source[counter][:name]
+     counter += 1 
+     resultArr << director_name 
+    end 
 
 resultArr  
 end
