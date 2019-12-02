@@ -55,15 +55,15 @@ end
 def list_of_directors(source)
 counter = 0 
 director_name = source[counter][:name]
-result = []
+resultArr = []
 
   while counter < source.count do 
    director_name = source[counter][:name]
    counter += 1 
-   result << director_name 
+   resultArr << director_name 
   end 
 
-result  
+resultArr  
 end
 
 
