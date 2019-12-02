@@ -48,6 +48,7 @@ end
 
 
 def directors_totals(source)
+total = 0 
 director_counter = 0 
 result = {
 } 
@@ -66,16 +67,10 @@ while director_counter < source.length do
 end 
   
 result
+
+result.each {|key[value]| total += key[value ]
 end
-p result
 
-
-
-
-#frequencies.each { |key, value| puts "#{key} #{value}" }
-# total = 0 
-# result.each 
-# total 
 end
 
 # result = 
