@@ -48,9 +48,9 @@ while director_counter < source.length do
   director_counter += 1 
 end 
   
-result 
+p result 
 end
-p result
+
 #=======================================================================================================
 
 def list_of_directors(source)
