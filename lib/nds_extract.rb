@@ -65,6 +65,9 @@ result = []
 
 result  
 end
+
+
+
 director_counter = 0 
 result = {
 } 
@@ -79,8 +82,11 @@ while director_counter < source.length do
    movie_counter += 1 
   end 
 
-  director_counter += 1
-end
-result
+  director_counter += 1 
+
+
 end 
+
+end
+
 
