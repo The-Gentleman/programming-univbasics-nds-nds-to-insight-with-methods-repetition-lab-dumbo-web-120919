@@ -50,9 +50,9 @@ end
 
 
 def directors_totals(source)
-director_counter = 0 
-result = {
-} 
+  director_counter = 0 
+  result = {
+  } 
  
   while director_counter < source.length do 
    director_name = source[director_counter][:name] 
