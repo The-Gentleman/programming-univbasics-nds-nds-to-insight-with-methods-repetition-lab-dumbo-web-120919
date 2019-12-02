@@ -69,7 +69,8 @@ end
 
 
 total = 0 
-result.each {|hash, key| total += hash[:key]}
+result.each do 
+end 
 total 
 end
 
