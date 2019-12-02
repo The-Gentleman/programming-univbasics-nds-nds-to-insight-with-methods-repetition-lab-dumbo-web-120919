@@ -68,7 +68,7 @@ end
   
 result
 
-result.each {|key[value]| total += key[value ]
+result.each {|key[value]| total += key[value]
 end
 
 end
