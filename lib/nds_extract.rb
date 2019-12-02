@@ -29,6 +29,24 @@ def total_gross(source)
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
+def list_of_directors(source)
+counter = 0 
+director_name = source[counter][:name]
+resultArr = []
+
+  while counter < source.count do 
+   director_name = source[counter][:name]
+   counter += 1 
+   resultArr << director_name 
+  end 
+
+resultArr  
+end
+
+
+
+
+#=======================================================================================================
 def directors_totals(source)
 
 director_counter = 0 
@@ -50,22 +68,7 @@ end
   
 result
 end
-p result
-#=======================================================================================================
 
-def list_of_directors(source)
-counter = 0 
-director_name = source[counter][:name]
-resultArr = []
-
-  while counter < source.count do 
-   director_name = source[counter][:name]
-   counter += 1 
-   resultArr << director_name 
-  end 
-
-resultArr  
-end
 #frequencies.each { |key, value| puts "#{key} #{value}" }
 
 
