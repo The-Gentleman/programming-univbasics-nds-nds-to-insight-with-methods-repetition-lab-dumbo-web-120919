@@ -69,7 +69,6 @@ end
 
 
 
-
 result.each {|key| total += result[:key]}
 total = 0 
 p total 
