@@ -19,6 +19,7 @@ resultArray
 end
 
 def total_gross(source)
+  p result
   # Write this implementation
   #
   # Should use methods:
@@ -68,7 +69,7 @@ end
 #frequencies.each { |key, value| puts "#{key} #{value}" }
 
 
-p result
+
 
 
 # total = 0 
