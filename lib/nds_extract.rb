@@ -66,7 +66,7 @@ resultArr = []
 resultArr  
 end
 
-p result.length
+result.each
 end
 
 # result = 
