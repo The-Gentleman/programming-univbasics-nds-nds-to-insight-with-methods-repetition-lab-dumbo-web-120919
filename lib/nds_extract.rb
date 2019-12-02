@@ -44,11 +44,10 @@ resultArr
 end
 
 
-
-
 #=======================================================================================================
-def directors_totals(source)
 
+
+def directors_totals(source)
 director_counter = 0 
 result = {
 } 
@@ -68,13 +67,12 @@ end
   
 result
 end
+p result
+
+
+
 
 #frequencies.each { |key, value| puts "#{key} #{value}" }
-
-
-
-
-
 # total = 0 
 # result.each 
 # total 
