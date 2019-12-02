@@ -81,8 +81,7 @@ end
    movie_counter += 1 
    director_counter += 1 
   end 
-
-
+total 
 end
 
 
