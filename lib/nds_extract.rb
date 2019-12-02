@@ -69,8 +69,9 @@ end
 
 
 
-total = 0 
+
 result.each {|key| total += result[:key]}
+total = 0 
 p total 
 end
 
