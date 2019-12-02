@@ -27,8 +27,11 @@ def total_gross(source)
 end 
 
 def gross_for_director(source)
-p source[:movies][0]
-#[:worldwide_gross]
+movie_index = 0 
+
+p source[:movies]
+
+#source[:movies][0][:worldwide_gross]
 
 end 
   
