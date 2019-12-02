@@ -5,9 +5,9 @@ require_relative './directors_database'
 # [{:name=>"Larry"}, {:name=>"Curly"}, {:name=>"Moe"}, {:name=>"Iggy"}]
 
 def list_of_directors(source)
-counter = 0 
-director_name = source[counter][:name]
-resultArray = []
+ counter = 0 
+ director_name = source[counter][:name]
+ resultArray = []
 
   while counter < source.count do 
    director_name = source[counter][:name]
@@ -15,8 +15,8 @@ resultArray = []
    resultArray << director_name 
   end 
 
-resultArray 
-
+ resultArray 
+end 
 
 def total_gross(source)
 
