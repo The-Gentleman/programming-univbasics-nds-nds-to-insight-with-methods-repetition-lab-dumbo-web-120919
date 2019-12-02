@@ -47,7 +47,7 @@ while director_counter < source.length do
   director_counter += 1 
 end 
   
-p result 
+result 
 end
 
 #=======================================================================================================
