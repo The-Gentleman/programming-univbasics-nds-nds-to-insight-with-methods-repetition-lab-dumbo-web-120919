@@ -25,6 +25,11 @@ def total_gross(source)
   total 
 
 end 
+
+def gross_for_director(source)
+p source 
+
+end 
   
 def list_of_directors(source)
 counter = 0 
