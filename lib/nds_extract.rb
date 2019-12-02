@@ -69,7 +69,7 @@ result
 end
 
 total = 0 
-result.each {|key[]|}
+result.each {|key["value"]| total += key["value"]}
 
 end
 
