@@ -66,6 +66,9 @@ resultArr = []
 resultArr  
 end
 #frequencies.each { |key, value| puts "#{key} #{value}" }
+
+
+
 total = 0 
 result.each {|key| total += result[:key] }
 result 
