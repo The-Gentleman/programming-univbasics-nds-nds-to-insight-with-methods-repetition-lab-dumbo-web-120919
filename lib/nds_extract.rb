@@ -68,10 +68,10 @@ end
 #frequencies.each { |key, value| puts "#{key} #{value}" }
 
 
-
-total = 0 
-result.each {|key| total += result[:key]}
-result 
+p result 
+# total = 0 
+# result.each {|key| total += result[:key]}
+# result 
 end
 
 # result = 
