@@ -16,7 +16,7 @@ resultArray = []
   end 
 
 resultArray 
-end
+
 
 def total_gross(source)
 
