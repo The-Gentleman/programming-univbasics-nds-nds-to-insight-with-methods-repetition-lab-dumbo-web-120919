@@ -68,7 +68,7 @@ end
 #frequencies.each { |key, value| puts "#{key} #{value}" }
 
 
-p result[:'Stephen Spielberg']
+p result[:Stephen Spielberg]
 # total = 0 
 # result.each {|key| total += result[:key]}
 # result 
