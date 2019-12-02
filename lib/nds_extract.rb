@@ -48,7 +48,6 @@ end
 
 
 def directors_totals(source)
-total = 0 
 director_counter = 0 
 result = {
 } 
@@ -67,9 +66,10 @@ while director_counter < source.length do
 end 
   
 result
-
-result.each {|key[value]| total += key[value]
 end
+
+
+
 
 end
 
