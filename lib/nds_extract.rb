@@ -37,7 +37,7 @@ total_gross = 0
   movie_index += 1 
   end 
 
-total 
+total_gross
 end 
   
 def list_of_directors(source)
