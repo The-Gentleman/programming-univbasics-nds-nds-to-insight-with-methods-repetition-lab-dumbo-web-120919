@@ -70,7 +70,7 @@ end
 
 
 total = 0 
-result.each {|key| total += result[:key] }
+result.each {|:key| total += result[:key] }
 result 
 end
 
