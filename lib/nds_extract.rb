@@ -29,7 +29,7 @@ end
 def gross_for_director(source)
 movie_index = 0 
 counter = 0 
-p source.length 
+p source[:movies].length 
   # while counter < source.length
 
 #source[:movies][0][:worldwide_gross]
